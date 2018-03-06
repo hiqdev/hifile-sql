@@ -1,0 +1,5 @@
+package:
+    type:       yii2-extension
+    name:       signage-file-sql
+    title:      Signage File SQL
+    keywords:   digital signage, file, SQL

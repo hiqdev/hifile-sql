@@ -1,0 +1,58 @@
+{
+    "name": "transmedia/signage-file-sql",
+    "type": "yii2-extension",
+    "description": "Signage File SQL",
+    "keywords": [
+        "digital signage",
+        "file",
+        "SQL"
+    ],
+    "homepage": "https://github.com/transmedia/signage-file-sql",
+    "license": "proprietary",
+    "support": {
+        "email": "support@transmedia.com.ua",
+        "source": "https://git.hiqdev.com/transmedia/signage-file-sql",
+        "issues": "https://git.hiqdev.com/transmedia/signage-file-sql/issues",
+        "wiki": "https://git.hiqdev.com/transmedia/signage-file-sql/wiki",
+        "forum": "http://forum.transmedia.com.ua/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "https://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "andreyklochok@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "hiqdev/reodb": "<2.0 || dev-master"
+    },
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0 || dev-master",
+        "transmedia/hidev-transmedia": "<2.0 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "transmedia\\signage\\file\\sql\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.hiqdev.com"
+        }
+    ]
+}
