@@ -23,9 +23,10 @@ done
 
 cd /app/bin
 ./01-configure-postgres.sh
+./05-create-extensions.sh
 ./10-create-db.sh
 ./20-import-db.sh
 
-echo "---------------- MIGRATIONS FINISED -----------------"
+echo "---------------- INITING FINISED -----------------"
 
 gosu postgres pg_ctl -D "$PGDATA" -m fast -w stop
