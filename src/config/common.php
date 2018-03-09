@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'controllerMap' => [                                                                                                                                                                               
-        'migrate' => [ 
+    'controllerMap' => [
+        'migrate' => [
             'class' => \yii\console\controllers\MigrateController::class,
             'migrationNamespaces' => [
                 'transmedia\signage\file\sql\migrations',
