@@ -11,6 +11,7 @@ CREATE TABLE file (
     type_id         integer             NOT NULL,
     state_id        integer             NOT NULL,
     client_id       integer             NOT NULL,
+    remoteid        text                NOT NULL,
     label           text                NULL,
     descr           text                NULL,
     create_time     timestamp           NOT NULL DEFAULT now(),

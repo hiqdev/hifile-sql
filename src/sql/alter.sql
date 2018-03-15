@@ -3,6 +3,7 @@
 ALTER TABLE ONLY file               ADD CONSTRAINT file_id_pkey                         PRIMARY KEY (id);
 
 --- FILE
+ALTER TABLE ONLY file               ADD CONSTRAINT file_remoteid_uniq                   UNIQUE (id);
 ALTER TABLE ONLY file               ADD CONSTRAINT file_type_id_fkey                    FOREIGN KEY (type_id)   REFERENCES ref (obj_id)
                                                                                         ON UPDATE CASCADE ON DELETE RESTRICT;
 ALTER TABLE ONLY file               ADD CONSTRAINT file_state_id_fkey                   FOREIGN KEY (state_id)  REFERENCES ref (obj_id)
