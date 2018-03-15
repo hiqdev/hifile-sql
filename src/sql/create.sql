@@ -5,9 +5,8 @@ CREATE EXTENSION IF NOT EXISTS hstore;
 
 --- FILE
 
-CREATE SEQUENCE "file_id_seq" START 1000000;
 CREATE TABLE file (
-    id              integer             NOT NULL DEFAULT nextval('file_id_seq'),
+    id              uuid                NOT NULL DEFAULT gen_random_uuid(),
     type_id         integer             NOT NULL,
     state_id        integer             NOT NULL,
     client_id       integer             NOT NULL,
