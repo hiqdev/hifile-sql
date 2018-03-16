@@ -5,8 +5,8 @@ namespace transmedia\signage\file\sql\migrations;
 use hiqdev\reodb\yii\migrations\m180209_000000_reodb;
 
 /**
- * Class M180306000000Reodb
+ * Class m180306_000000_reodb
  */
-class M180306000000Reodb extends m180209_000000_reodb
+class m180306_000000_reodb extends m180209_000000_reodb
 {
 }

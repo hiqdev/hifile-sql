@@ -5,9 +5,9 @@ namespace transmedia\signage\file\sql\migrations;
 use hiqdev\reodb\yii\FileBasedMigration;
 
 /**
- * Class M180307000000Init
+ * Class m180307_000000_init
  */
-class M180307000000Init extends FileBasedMigration
+class m180307_000000_init extends FileBasedMigration
 {
     /**
      * {@inheritdoc}
