@@ -18,11 +18,11 @@ class M180307000000Init extends FileBasedMigration
     }
 
     protected $importFiles = [
-        "create.sql",
-        "alter.sql",
-        "functions.sql",
-        "triggers.sql",
-        "views.sql",
-        "init.sql",
+        'create.sql',
+        'alter.sql',
+        'functions.sql',
+        'triggers.sql',
+        'views.sql',
+        'init.sql',
     ];
 }
