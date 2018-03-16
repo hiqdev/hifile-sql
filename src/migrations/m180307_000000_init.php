@@ -21,6 +21,7 @@ class m180307_000000_init extends FileBasedMigration
         'create.sql',
         'alter.sql',
         'functions.sql',
+        'defaults.sql',
         'triggers.sql',
         'views.sql',
         'init.sql',
