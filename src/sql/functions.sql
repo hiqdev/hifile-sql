@@ -15,9 +15,9 @@ BEGIN
     prep := prepare_replace(prep, 'client_id',  a_client_id,    cur.client_id);
     prep := prepare_replace(prep, 'type_id',    a_type_id,      cur.type_id);
     prep := prepare_replace(prep, 'state_id',   a_state_id,     cur.state_id);
-    prep := prepare_replace(prep, 'remoteid',   a_remoteid,     cur.remoteid);
-    prep := prepare_replace(prep, 'label',      a_label,        cur.label);
-    prep := prepare_replace(prep, 'descr',      a_descr,        cur.descr);
+    prep := prepare_replace(prep, 'remoteid',   a->'remoteid',  cur.remoteid);
+    prep := prepare_replace(prep, 'label',      a->'label',     cur.label);
+    prep := prepare_replace(prep, 'descr',      a->'descr',     cur.descr);
     IF prep.sets IS NULL THEN
         -- DO NOTHING
     ELSIF the_id IS NULL THEN
