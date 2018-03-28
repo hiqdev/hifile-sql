@@ -10,6 +10,7 @@ CREATE TABLE file (
     remoteid        text                NOT NULL,
     filename        text                NULL,
     size            bigint              NULL,
+    data            jsonb               NULL,
     md5             text                NULL,
     label           text                NULL,
     descr           text                NULL,

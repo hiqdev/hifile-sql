@@ -8,6 +8,7 @@ DECLARE
     a_state_id      integer := coalesce(str2integer(a->'state_id'), state_id('file', a->'state'));
     a_type_id       integer := coalesce(str2integer(a->'type_id'), type_id('file', a->'type'));
     a_size          integer := str2bigint(a->'size');
+    a_data          jsonb   := str2jsonb(a->'data');
     prep            replace_data;
     cur             file%ROWTYPE;
 BEGIN
@@ -21,6 +22,7 @@ BEGIN
     prep := prepare_replace(prep, 'state_id',       a_state_id,     cur.state_id);
     prep := prepare_replace(prep, 'type_id',        a_type_id,      cur.type_id);
     prep := prepare_replace(prep, 'size',           a_size,         cur.size);
+    prep := prepare_replace(prep, 'data',           a_data,         cur.data);
     prep := prepare_replace(prep, 'remoteid',       a->'remoteid',  cur.remoteid);
     prep := prepare_replace(prep, 'filename',       a->'filename',  cur.filename);
     prep := prepare_replace(prep, 'label',          a->'label',     cur.label);
