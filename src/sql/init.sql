@@ -52,7 +52,8 @@ SELECT set_ref( 2, 'type,mimetype,application/x-shockwave-flash',               
 SELECT set_ref( 2, 'type,mimetype,application/x-sh',                                                            '[.sh] Bourne shell script');
 SELECT set_ref( 2, 'type,mimetype,application/x-tar',                                                           '[.tar] Tape Archive (TAR)');
 SELECT set_ref( 2, 'type,mimetype,application/zip',                                                             '[.zip] ZIP archive');
-SELECT set_ref( 2, 'type,mimetype,audio/3gpp',                                                                  '[.3gp] 3GPP audio container');
+SELECT set_ref( 2, 'type,mimetype,audio/3gpp2',                                                                 '[.3g2] 3GPP2 audio');
+SELECT set_ref( 2, 'type,mimetype,audio/3gpp',                                                                  '[.3gp] 3GPP audio');
 SELECT set_ref( 2, 'type,mimetype,audio/aac',                                                                   '[.aac] AAC audio file');
 SELECT set_ref( 2, 'type,mimetype,audio/midi',                                                                  '[.mid] Musical Instrument Digital Interface (MIDI)');
 SELECT set_ref( 2, 'type,mimetype,audio/ogg',                                                                   '[.oga] OGG audio');
@@ -73,9 +74,8 @@ SELECT set_ref( 2, 'type,mimetype,text/calendar',                               
 SELECT set_ref( 2, 'type,mimetype,text/css',                                                                    '[.css] Cascading Style Sheets (CSS)');
 SELECT set_ref( 2, 'type,mimetype,text/csv',                                                                    '[.csv] Comma-separated values (CSV)');
 SELECT set_ref( 2, 'type,mimetype,text/html',                                                                   '[.html] HyperText Markup Language (HTML)');
-SELECT set_ref( 2, 'type,mimetype,video/3gpp2',                                                                 '[.3g2] 3GPP2 audio container');
-SELECT set_ref( 2, 'type,mimetype,video/3gpp2',                                                                 '[.3g2] 3GPP2 video container');
-SELECT set_ref( 2, 'type,mimetype,video/3gpp',                                                                  '[.3gp] 3GPP video container');
+SELECT set_ref( 2, 'type,mimetype,video/3gpp2',                                                                 '[.3g2] 3GPP2 video');
+SELECT set_ref( 2, 'type,mimetype,video/3gpp',                                                                  '[.3gp] 3GPP video');
 SELECT set_ref( 2, 'type,mimetype,video/mpeg',                                                                  '[.mpeg] MPEG Video');
 SELECT set_ref( 2, 'type,mimetype,video/ogg',                                                                   '[.ogv] OGG video');
 SELECT set_ref( 2, 'type,mimetype,video/webm',                                                                  '[.webm] WEBM video');

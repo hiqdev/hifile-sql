@@ -58,8 +58,8 @@
 .xml	XML	application/xml
 .xul	XUL	application/vnd.mozilla.xul+xml
 .zip	ZIP archive	application/zip
-.3gp	3GPP video container	video/3gpp
-.3gp	3GPP audio container	audio/3gpp
-.3g2	3GPP2 video container	video/3gpp2
-.3g2	3GPP2 audio container	video/3gpp2
+.3gp	3GPP video      video/3gpp
+.3gp	3GPP audio 	    audio/3gpp
+.3g2	3GPP2 video 	video/3gpp2
+.3g2	3GPP2 audio 	audio/3gpp2
 .7z	7-zip archive	application/x-7z-compressed
