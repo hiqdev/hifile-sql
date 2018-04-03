@@ -79,4 +79,5 @@ SELECT set_ref( 2, 'type,mimetype,video/3gpp',                                  
 SELECT set_ref( 2, 'type,mimetype,video/mpeg',                                                                  '[.mpeg] MPEG Video');
 SELECT set_ref( 2, 'type,mimetype,video/ogg',                                                                   '[.ogv] OGG video');
 SELECT set_ref( 2, 'type,mimetype,video/webm',                                                                  '[.webm] WEBM video');
+SELECT set_ref( 2, 'type,mimetype,video/x-matroska',                                                            '[.mkv] Matroska video');
 SELECT set_ref( 2, 'type,mimetype,video/x-msvideo',                                                             '[.avi] AVI: Audio Video Interleave');
