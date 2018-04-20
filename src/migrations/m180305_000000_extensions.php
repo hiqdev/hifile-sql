@@ -1,6 +1,6 @@
 <?php
 
-namespace transmedia\signage\file\sql\migrations;
+namespace hiqdev\hifile\sql\migrations;
 
 /**
  * Class m180305_000000_extensions

@@ -1,6 +1,6 @@
 <?php
 
-namespace transmedia\signage\file\sql\migrations;
+namespace hiqdev\hifile\sql\migrations;
 
 use hiqdev\reodb\yii\FileBasedMigration;
 
