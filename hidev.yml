@@ -1,5 +1,6 @@
 package:
     type:       yii2-extension
-    name:       signage-file-sql
-    title:      Signage File SQL
-    keywords:   digital signage, file, SQL
+    name:       hifile
+    title:      DataBase for HiFile file server
+    headline:   HiFile SQL
+    keywords:   hifile, file server

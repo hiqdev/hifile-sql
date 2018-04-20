@@ -1,20 +1,19 @@
 {
-    "name": "transmedia/signage-file-sql",
+    "name": "hiqdev/hifile",
     "type": "yii2-extension",
-    "description": "Signage File SQL",
+    "description": "DataBase for HiFile file server",
     "keywords": [
-        "digital signage",
-        "file",
-        "SQL"
+        "hifile",
+        "file server"
     ],
-    "homepage": "https://github.com/transmedia/signage-file-sql",
-    "license": "proprietary",
+    "homepage": "https://github.com/hiqdev/hifile",
+    "license": "BSD-3-Clause",
     "support": {
-        "email": "support@transmedia.com.ua",
-        "source": "https://git.hiqdev.com/transmedia/signage-file-sql",
-        "issues": "https://git.hiqdev.com/transmedia/signage-file-sql/issues",
-        "wiki": "https://git.hiqdev.com/transmedia/signage-file-sql/wiki",
-        "forum": "http://forum.transmedia.com.ua/"
+        "email": "support@hiqdev.com",
+        "source": "https://github.com/hiqdev/hifile",
+        "issues": "https://github.com/hiqdev/hifile/issues",
+        "wiki": "https://github.com/hiqdev/hifile/wiki",
+        "forum": "http://forum.hiqdev.com/"
     },
     "authors": [
         {
@@ -27,12 +26,18 @@
             "name": "Dmitry Naumenko",
             "role": "Lead backend developer",
             "email": "d.naumenko.a@gmail.com",
-            "homepage": "https://silverfire.me/"
+            "homepage": "http://silverfire.me/"
         },
         {
             "name": "Andrey Klochok",
             "role": "Lead frontend developer",
             "email": "andreyklochok@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@gmail.com",
             "homepage": "http://hiqdev.com/"
         }
     ],
@@ -41,7 +46,7 @@
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0 || dev-master",
-        "transmedia/hidev-transmedia": "<2.0 || dev-master"
+        "hiqdev/hidev-hiqdev": "<2.0 || dev-master"
     },
     "extra": {
         "config-plugin": {
@@ -51,14 +56,14 @@
     },
     "autoload": {
         "psr-4": {
-            "transmedia\\signage\\file\\sql\\": "src"
+            "hiqdev\\hifile\\sql\\": "src"
         }
     },
     "minimum-stability": "dev",
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.hiqdev.com"
+            "url": "https://asset-packagist.org"
         }
     ]
 }
