@@ -1,6 +1,6 @@
 package:
     type:       yii2-extension
-    name:       hifile
+    name:       hifile-sql
     title:      DataBase for HiFile file server
     headline:   HiFile SQL
     keywords:   hifile, file server

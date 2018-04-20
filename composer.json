@@ -1,18 +1,18 @@
 {
-    "name": "hiqdev/hifile",
+    "name": "hiqdev/hifile-sql",
     "type": "yii2-extension",
     "description": "DataBase for HiFile file server",
     "keywords": [
         "hifile",
         "file server"
     ],
-    "homepage": "https://github.com/hiqdev/hifile",
+    "homepage": "https://github.com/hiqdev/hifile-sql",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/hifile",
-        "issues": "https://github.com/hiqdev/hifile/issues",
-        "wiki": "https://github.com/hiqdev/hifile/wiki",
+        "source": "https://github.com/hiqdev/hifile-sql",
+        "issues": "https://github.com/hiqdev/hifile-sql/issues",
+        "wiki": "https://github.com/hiqdev/hifile-sql/wiki",
         "forum": "http://forum.hiqdev.com/"
     },
     "authors": [

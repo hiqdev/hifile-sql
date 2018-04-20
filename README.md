@@ -2,12 +2,12 @@
 
 **DataBase for HiFile file server**
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/hifile/v/stable)](https://packagist.org/packages/hiqdev/hifile)
-[![Total Downloads](https://poser.pugx.org/hiqdev/hifile/downloads)](https://packagist.org/packages/hiqdev/hifile)
-[![Build Status](https://img.shields.io/travis/hiqdev/hifile.svg)](https://travis-ci.org/hiqdev/hifile)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hifile.svg)](https://scrutinizer-ci.com/g/hiqdev/hifile/)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hifile.svg)](https://scrutinizer-ci.com/g/hiqdev/hifile/)
-[![Dependency Status](https://www.versioneye.com/php/hiqdev:hifile/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hifile/dev-master)
+[![Latest Stable Version](https://poser.pugx.org/hiqdev/hifile-sql/v/stable)](https://packagist.org/packages/hiqdev/hifile-sql)
+[![Total Downloads](https://poser.pugx.org/hiqdev/hifile-sql/downloads)](https://packagist.org/packages/hiqdev/hifile-sql)
+[![Build Status](https://img.shields.io/travis/hiqdev/hifile-sql.svg)](https://travis-ci.org/hiqdev/hifile-sql)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hifile-sql.svg)](https://scrutinizer-ci.com/g/hiqdev/hifile-sql/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hifile-sql.svg)](https://scrutinizer-ci.com/g/hiqdev/hifile-sql/)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:hifile-sql/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hifile-sql/dev-master)
 
 ## Installation
 
@@ -16,13 +16,13 @@ The preferred way to install this yii2-extension is through [composer](http://ge
 Either run
 
 ```sh
-php composer.phar require "hiqdev/hifile"
+php composer.phar require "hiqdev/hifile-sql"
 ```
 
 or add
 
 ```json
-"hiqdev/hifile": "*"
+"hiqdev/hifile-sql": "*"
 ```
 
 to the require section of your composer.json.
