@@ -1,9 +1,9 @@
 ### TMP IMAGE
 FROM postgres:9.6 as tmp
 
-ARG db_name=signage_file
-ARG db_user=signage
-ARG db_password=signage
+ARG db_name=hifile
+ARG db_user=hifile
+ARG db_password=hifile
 
 ENV PGDATA /var/lib/postgresql/app
 ENV POSTGRES_DB $db_name
