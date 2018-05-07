@@ -23,5 +23,6 @@ RUN /app/bin/00-configure-host.sh
 COPY --from=tmp --chown=postgres:postgres ${PGDATA} ${PGDATA}
 RUN chmod 700 ${PGDATA}
 
+VOLUME ["/var/lib/postgresql/app"]
 ENTRYPOINT ["/app/bin/entrypoint.sh"]
 CMD ['postgres']
