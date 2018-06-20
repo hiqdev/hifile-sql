@@ -22,6 +22,7 @@ BEGIN
     prep := prepare_replace(prep, 'state_id',       a_state_id,     cur.state_id);
     prep := prepare_replace(prep, 'type_id',        a_type_id,      cur.type_id);
     prep := prepare_replace(prep, 'size',           a_size,         cur.size);
+    prep := prepare_replace(prep, 'md5',            a->'md5',       cur.md5);
     prep := prepare_replace(prep, 'data',           a_data,         cur.data);
     prep := prepare_replace(prep, 'remoteid',       a->'remoteid',  cur.remoteid);
     prep := prepare_replace(prep, 'filename',       a->'filename',  cur.filename);
