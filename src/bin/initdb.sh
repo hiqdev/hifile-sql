@@ -7,7 +7,7 @@ set -e
 
 # waiting postgres to start
 check_pgsql_is_running () {
-    WORKS=`psql -U postgres postgres -Aqtc "select 1" 2> /dev/null`
+    WORKS=`psql -U $POSTGRES_USER $POSTGRES_DB -Aqtc "select 1" 2> /dev/null`
     return 0
 }
 while check_pgsql_is_running; do
