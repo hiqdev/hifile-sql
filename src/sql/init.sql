@@ -12,6 +12,7 @@ SELECT set_ref( 3,'state,file,deleted',         'Deleted');
 --- FILE providers
 SELECT set_ref( 0,'type,provider',              'Provider');
 SELECT set_ref( 1,'type,provider,filestack',    'Filestack');
+SELECT set_ref( 2,'type,provider,url',          'URL');
 
 --- MIME types
 SELECT set_ref( 0,'type,mimetype',              'MIME type');
